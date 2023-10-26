@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto- Farmacia Montesini</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/cruzFavicom.png" type="image/x-icon">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <div class="divHeader">
+            <div class="logoHeader">
+                <a id="logoPrincipal" href="index.html"><img class="logo" src="../img/logoCompleto.png"
+                        alt="Logo Farmacia Montesini"></a>
+            </div>
+
+            <div class="divSearch">
+                <nav class="navbar-ancho">
+                    <form class="navbar navbar-d-flex m-0 w-auto" role="search">
+                        <input class="form-control rounded-pill" type="search"
+                            placeholder="¿Qué estabas buscando?" aria-label="Search">
+                    </form>
+                </nav>
+            </div>
+            <div class="divExpand">
+                <nav class="navbar navbar-expand-lg">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link m-1" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Mi cuenta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                                    <li><a class="dropdown-item" href="#">Configuración</a></li>
+                                    <li><a class="dropdown-item" href="#">Salir</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="container p-0">
+                                    <a class="navbar-link m-0" href="https://www.instagram.com/farmaciamontesini/"
+                                        target="_blank">
+                                        <img src="../img/logoInstagram.png" alt="Instagram" width="50" height="50">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="container p-0">
+                                    <a class="navbar-link m-0" href="https://www.facebook.com/farmaciamontesini"
+                                        target="_blank">
+                                        <img src="../img/logoFacebook.png" alt="Facebook" width="50" height="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <nav class="menuNav d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pregagas.html">Prepagas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pami.html">PAMI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"> Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+
+        <a href="https://api.whatsapp.com/message/PEPW73BR2VMGO1?autoload=1&app_absent=0" target="_blank"><img
+            class="iconoWhatsapp" src="../img/logoWhatsapp.png" alt="Icono Whatsapp"></a>
+    
+        <div class="fondoContacto">
+
+            <h1 class="h1Contacto position-relative pt-4 mb-4 ">Formulario de contacto</h1>
+
+            <div class="divFormulario d-flex text-white">
+
+
+                <div class="divConsulta fs-5">
+                    <h3 class="h3Consulta mb-4 fs-3">Mandanos tu consulta</h3>
+                    <p class="parrafoConsulta px-4">
+                        Te juro que cuando se me ocurra algo más productivo para poner acá, que cumpla con la sección y
+                        encima
+                        tenga
+                        sentido, lo pongo, mientras tanto me dedico a hacer las cosas pedidas en el drive :D
+                        <br><br>
+                        Gracias por entender.
+                    </p>
+                </div>
+
+                <div class="divForm">
+                    <form class="form d-flex flex-column mt-1 me-5">
+                        <label class="labelInput fw-bold mb-1" for="nombre"> Nombre: </label>
+                        <input class="labelInput fw-bold mb-1" type="text" placeholder="Por ej: Lionel" id="nombre">
+
+                        <label class="labelInput fw-bold mb-1" for="telefono"> Teléfono </label>
+                        <input class="labelInput fw-bold mb-1" type="tel" placeholder="Sin 0 ni 15" id="telefono">
+
+                        <label class="labelInput fw-bold mb-1" for="email"> Email </label>
+                        <input class="labelInput fw-bold mb-1" type="email" placeholder="nombre@example.com" id="email" required>
+
+                        <textarea class="textArea mt-1" cols="30" rows="10" placeholder="Deje su consulta aquí"></textarea>
+
+                        <input class="btnForm fs-6 mt-1 mb-1 px-2 py-1 fw-bold" type="submit" value="Enviar formulario">
+
+                        <input class="btnForm fs-6 mt-1 mb-1 px-2 py-1 fw-bold" type="reset" value="Borrar todo">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+
+        <section class="serviciosSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Servicios</h2>
+            <ul class="ulSection p-0">
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="html/mapadomicilio.html">Envios a domicilio</a></li>
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="">Gabinete</a> </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="">Reserva de medicamentos</a> </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Dias y horarios de atención</h2>
+            <ul class="ulSection p-0">
+                <li class="liFooter fw-bold m-1">Lunes a Viernes</li>
+                <li>8.30 a 13.30hs 15.30 a 20.30hs</li>
+                <li class="liFooter fw-bold m-1">Sábados</li>
+                <li>8.30 a 13.30hs 17 a 20.30hs</li>
+                <li class="liFooter fw-bold m-1">Domingos: Cerrado</li>
+            </ul>
+        </section>
+
+        <section class="contactoSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Contacto</h2>
+            <ul class="ulSection p-0">
+                <li class="liSection mb-4 text-start"> <a class="aSection "
+                        href="https://api.whatsapp.com/message/PEPW73BR2VMGO1?autoload=1&app_absent=0"
+                        target="_blank">Whatsapp</a>
+                </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection " href="">Teléfono</a> </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection " href="">Email</a> </li>
+            </ul>
+        </section>
+
+        <section class="mapaSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">¿Dónde estamos?</h2>
+            <iframe class="iframeSection mb-2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.351622638833!2d-58.46925384797968!3d-34.63985283460131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2b18663ecd%3A0x7f2847869655d26c!2sGran%20Farmacia%20-%20Optica%20Montesini!5e0!3m2!1ses-419!2sar!4v1696258234982!5m2!1ses-419!2sar"
+                width="200" height="150" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <button class="btnGeneral">¿Cómo llegar?</button>
+
+        </section>
+
+    </footer>
+
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

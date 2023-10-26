@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios- Farmacia Montesini</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/cruzFavicom.png" type="image/x-icon">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <div class="divHeader">
+            <div class="logoHeader">
+                <a id="logoPrincipal" href="index.html"><img class="logo" src="../img/logoCompleto.png"
+                        alt="Logo Farmacia Montesini"></a>
+            </div>
+
+            <div class="divSearch">
+                <nav class="navbar-ancho">
+                    <form class="navbar navbar-d-flex m-0 w-auto" role="search">
+                        <input class="form-control rounded-pill" type="search"
+                            placeholder="¿Qué estabas buscando?" aria-label="Search">
+                    </form>
+                </nav>
+            </div>
+            <div class="divExpand">
+                <nav class="navbar navbar-expand-lg">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link m-1" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Mi cuenta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                                    <li><a class="dropdown-item" href="#">Configuración</a></li>
+                                    <li><a class="dropdown-item" href="#">Salir</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="container p-0">
+                                    <a class="navbar-link m-0" href="https://www.instagram.com/farmaciamontesini/"
+                                        target="_blank">
+                                        <img src="../img/logoInstagram.png" alt="Instagram" width="50" height="50">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="container p-0">
+                                    <a class="navbar-link m-0" href="https://www.facebook.com/farmaciamontesini"
+                                        target="_blank">
+                                        <img src="../img/logoFacebook.png" alt="Facebook" width="50" height="50">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <nav class="menuNav d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pregagas.html">Prepagas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pami.html">PAMI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"> Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+
+        <a href="https://api.whatsapp.com/message/PEPW73BR2VMGO1?autoload=1&app_absent=0" target="_blank"><img
+            class="iconoWhatsapp" src="../img/logoWhatsapp.png" alt="Icono Whatsapp"></a> 
+            
+        <h1>Servicios</h1>
+
+        <div class="d-flex flex-wrap justify-content-center">
+
+            <div class="servicioFarm-Gabinete text-center d-flex flex-column justify-content-center align-items fw-bolder text-uppercase m-4">
+                <h2 class="h2Servicios text-center fw-bolder text-uppercase mb-5">Gabinete especializado</h2>
+                <!-- <p class="pServicios fw-bold">Contamos con personal capacitado para brindarte:</p> -->
+                <ul>
+                    <li class="list-unstyled pe-4 fw-bold">Control de presión</li>
+                    <li class="list-unstyled pe-4 fw-bold">Control de glucosa</li>
+                    <li class="list-unstyled pe-4 fw-bold">Inyecciones</li>
+                    <li class="list-unstyled pe-4 fw-bold">Curaciones</li>
+                </ul>
+                <button class="btnGeneral">¡ Conocé más !</button>
+            </div>
+
+            <div class="servicioFarm-Reserva text-center d-flex flex-column justify-content-center align-items fw-bolder text-uppercase m-4">
+                <h2 class="h2Servicios text-center fw-bolder text-uppercase mb-5">Reserva de medicamentos</h2>
+                <!-- <p class="pServicios fw-bold">No te quedes sin tu medicación, reservá de manera rápida y gratuita. </p> -->
+                <p class="pServicios fw-bold">Mandanos el nombre genérico, comercial y/o la foto de la receta que tengas, para evitar confusiones
+                </p>
+                <button class="btnGeneral">¡ Reservá ahora !</button>
+            </div>
+
+            <div class="servicioFarm-Envios text-center d-flex flex-column justify-content-center align-items fw-bolder text-uppercase m-4">
+                <h2 class="h2Servicios text-center fw-bolder text-uppercase mb-5">Envios a domicilio</h2>
+                <p class="pServicios">¡Te lo llevamos a la puerta de casa</p>
+                <p class="pServicios">Envios gratis.</p>
+                <p class="pServicios">Consultá el mapa de cobertura.</p>
+                <a href="mapadomicilio.html" target="_blank"><button class="btnGeneral">Consultá acá</button></a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <section class="serviciosSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Servicios</h2>
+            <ul class="ulSection p-0">
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="html/mapadomicilio.html">Envios a domicilio</a></li>
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="">Gabinete</a> </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="">Reserva de medicamentos</a> </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Dias y horarios de atención</h2>
+            <ul class="ulSection p-0">
+                <li class="liFooter fw-bold m-1">Lunes a Viernes</li>
+                <li>8.30 a 13.30hs 15.30 a 20.30hs</li>
+                <li class="liFooter fw-bold m-1">Sábados</li>
+                <li>8.30 a 13.30hs 17 a 20.30hs</li>
+                <li class="liFooter fw-bold m-1">Domingos: Cerrado</li>
+            </ul>
+        </section>
+
+        <section class="contactoSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Contacto</h2>
+            <ul class="ulSection p-0">
+                <li class="liSection mb-4 text-start"> <a class="aSection "
+                        href="https://api.whatsapp.com/message/PEPW73BR2VMGO1?autoload=1&app_absent=0"
+                        target="_blank">Whatsapp</a>
+                </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection " href="">Teléfono</a> </li>
+                <li class="liSection mb-4 text-start"> <a class="aSection " href="">Email</a> </li>
+            </ul>
+        </section>
+
+        <section class="mapaSection">
+            <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">¿Dónde estamos?</h2>
+            <iframe class="iframeSection mb-2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.351622638833!2d-58.46925384797968!3d-34.63985283460131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2b18663ecd%3A0x7f2847869655d26c!2sGran%20Farmacia%20-%20Optica%20Montesini!5e0!3m2!1ses-419!2sar!4v1696258234982!5m2!1ses-419!2sar"
+                width="200" height="150" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <button class="btnGeneral">¿Cómo llegar?</button>
+
+        </section>
+
+    </footer>
+        <!-- BS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
