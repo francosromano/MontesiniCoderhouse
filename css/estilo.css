@@ -247,6 +247,10 @@ h1 {
   height: 300px;
 }
 
+.tituloNormas {
+  color: rgb(90, 145, 197);
+}
+
 .logoPrepaga {
   width: 100%;
   height: 100px;
@@ -363,6 +367,9 @@ form {
   }
   .reserva {
     margin-bottom: 10px;
+  }
+  .tituloNormas {
+    text-align: center;
   }
   .divFormulario {
     flex-flow: column wrap;
