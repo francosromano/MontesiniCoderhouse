@@ -1,0 +1,25 @@
+body {
+    background-color: lightcyan;
+}
+
+.iconoWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btnGeneral {
+    @include boton;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: rgba(40, 95, 197, 0.774);
+    }
+
+    &:active {
+        background-color: rgba(22, 63, 139, 0.774);
+    }
+}

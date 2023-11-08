@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prepagas- Farmacia Montesini</title>
-    <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="shortcut icon" href="../img/cruzFavicom.png" type="image/x-icon">
     <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/cruzFavicom.png" type="image/x-icon">
 </head>
 
 <body class="container-fluid">
     <header>
-        <div class="divHeader">
+        <div class="divHeader d-flex w-auto justify-content-evenly align-items-center">
             <div class="logoHeader">
-                <a id="logoPrincipal" href="index.html"><img class="logo" src="../img/logoCompleto.png"
+                <a id="logoPrincipal" href="../index.html"><img class="logo d-flex" src="../img/logoCompleto.png"
                         alt="Logo Farmacia Montesini"></a>
             </div>
 
             <div class="divSearch">
                 <nav class="navbar-ancho">
                     <form class="navbar navbar-d-flex m-0 w-auto" role="search">
-                        <input class="form-control rounded-pill" type="search"
-                            placeholder="¿Qué estabas buscando?" aria-label="Search">
+                        <input class="form-control rounded-pill" type="search" placeholder="¿Qué estabas buscando?"
+                            aria-label="Search">
                     </form>
                 </nav>
             </div>
@@ -42,25 +43,32 @@
                                     Mi cuenta
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Mi perfil</a></li>
-                                    <li><a class="dropdown-item" href="#">Configuración</a></li>
-                                    <li><a class="dropdown-item" href="#">Salir</a></li>
+                                    <li><a class="dropdown-item text-center m-0 p-1" href="#">Mi perfil</a></li>
+                                    <li><a class="dropdown-item text-center m-0 p-1" href="#">Configuración</a></li>
+                                    <li><a class="dropdown-item text-center m-0 p-1" href="#">Salir</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <div class="container p-0">
-                                    <a class="navbar-link m-0" href="https://www.instagram.com/farmaciamontesini/"
-                                        target="_blank">
-                                        <img src="../img/logoInstagram.png" alt="Instagram" width="50" height="50">
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="container p-0">
-                                    <a class="navbar-link m-0" href="https://www.facebook.com/farmaciamontesini"
-                                        target="_blank">
-                                        <img src="../img/logoFacebook.png" alt="Facebook" width="50" height="50">
-                                    </a>
+                                <div>
+                                    <a href="https://www.instagram.com/farmaciamontesini/" target="_blank" class="m-0">
+                                        <button type="button" class="btn btn-danger bg-gradient">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="35"
+                                                fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                                </path>
+                                            </svg>
+                                            <span class="visually-hidden">Button</span>
+                                        </button></a>
+                                    <a href="https://www.facebook.com/farmaciamontesini" target="_blank" class="m-0">
+                                        <button type="button" class="btn btn-primary bg-gradient">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="35"
+                                                fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                            </svg>
+                                            <span class="visually-hidden">Button</span>
+                                        </button></a>
                                 </div>
                             </li>
                         </ul>
@@ -82,19 +90,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="servicios.html">Servicios</a>
+                                <a class="nav-link" href="servicios.html">SERVICIOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pregagas.html">Prepagas</a>
+                                <a class="nav-link" href="pregagas.html">PREPAGAS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="pami.html">PAMI</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html"> Contacto</a>
+                                <a class="nav-link" href="contacto.html"> CONTACTO</a>
                             </li>
                         </ul>
                     </div>
@@ -106,210 +114,355 @@
     <a href="https://api.whatsapp.com/message/PEPW73BR2VMGO1?autoload=1&app_absent=0" target="_blank"><img
             class="iconoWhatsapp" src="../img/logoWhatsapp.png" alt="Icono Whatsapp"></a>
 
-    <H1>Prepagas</H1>
+    <h1 class="text-center">Prepagas</h1>
 
-    <div class="padrePrepaga d-flex flex-wrap justify-content-center ">
+    <div class="padrePrepaga d-flex flex-wrap justify-content-center container-fluid">
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/osde.png" alt="Logo de OSDE">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div>
+                <img class="logoPrepaga p-3" src="../img/osde.png" alt="Logo de OSDE">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/swiss.png" alt="Logo de Swiss Medical">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/swiss.png" alt="Logo de Swiss Medical">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/galeno.png" alt="Logo de Galeno">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/galeno.png" alt="Logo de Galeno">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/luispasteur.png" alt="Logo de Luis Pasteur">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/luispasteur.png" alt="Logo de Luis Pasteur">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/medife.png" alt="Logo de Medifé">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/medife.png" alt="Logo de Medifé">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/omint.png" alt="Logo de Omint">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/omint.png" alt="Logo de Omint">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
 
-        <div class="hijoPrepaga d-flex flex-wrap align-content-center pe-auto">
-            <img class="logoPrepaga" src="../img/hospitalbritanico.png" alt="Logo de Hospital Británico">
-            <button class="btnGeneral">Mas info</button>
+        <div class="hijoPrepaga d-flex flex-wrap justify-content-center align-content-center pe-auto">
+            <div><img class="logoPrepaga p-3" src="../img/hospitalbritanico.png" alt="Logo de Hospital Británico">
+                <button class="btnGeneral d-flex align-content-center">Mas info</button>
+            </div>
         </div>
 
     </div>
 
     <h2 class="mt-5 mb-5">Normas operativas</h2>
-    <h3  class="mt-5 mb-5">OSDE</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
+
+    <div class="accordion accordion-flush container mt-5" id="accordionFlushExample">
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    <p class="m-0 p-0 fs-3">OSDE</p>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p> 30 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
 
 
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
+                            <p> Se puede dispensar otra marca comercial, que sea el mismo principio activo y la misma
+                                dosis. </p>
+                        </li>
 
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
-
-    <h3 class="mt-5 mb-5">Swiss Medical</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
-
-
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
-
-    <h3 class="mt-5 mb-5">Galeno</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                    aria-controls="flush-collapseTwo">
+                    <p class="m-0 p-0 fs-3">Swiss Medical</p>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p>60 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
 
 
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
 
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
+                            <p>La farmacia puede realizar la sustitución de medicamentos, según los requisitos que se
+                                indican en la ley
+                                de prescripción de medicamentos.
+                                Los casos en los que no se puedan realizar la sustitución, son aquellos en cuales, quien
+                                prescribe la
+                                receta, indica expresamente que se debe respetar la marca indicada. </p>
 
-    <h3 class="mt-5 mb-5">Luis Pasteur</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
+                            <p> Recetas electrónicas: No se pueden cambiar. </p>
 
+                            <p> Recetas manuscritas: Se pueden cambiar, a cualquier que cumpla con lo prescripto,
+                                siempre y cuando se
+                                aclare el principio activo en la receta.</p>
+                        </li>
 
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
-
-    <h3 class="mt-5 mb-5">Medifé</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
-
-
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
-
-    <h3 class="mt-5 mb-5">Omint</h3>
-    <ul> 
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                    aria-controls="flush-collapseThree">
+                    <p class="m-0 p-0 fs-3">Galeno</p>
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p> 30 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
 
 
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
 
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
+                            <p>La farmacia puede realizar la sustitución de medicamentos, según los requisitos que se
+                                indican en la ley
+                                de prescripción de medicamentos.
+                                Los casos en los que no se puedan realizar la sustitución, son aquellos en cuales, quien
+                                prescribe la
+                                receta, indica expresamente que se debe respetar la marca indicada. </p>
 
-    <h3 class="mt-5 mb-5">Hospital Británico</h3>
-    <ul>
-        <li>
-            <h4>Validez de la receta</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio nequee
-                veniet harum natus ex nulla.</p>
-        </li>
+                            <p> Recetas electrónicas: No se pueden cambiar. </p>
+
+                            <p> Recetas manuscritas: Se pueden cambiar, a cualquier que cumpla con lo prescripto,
+                                siempre y cuando se
+                                aclare el principio activo en la receta.</p>
+                        </li>
+
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                    aria-controls="flush-collapseFour">
+                    <p class="m-0 p-0 fs-3">Luis Pasteur</p>
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p> 30 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
 
 
-        <li>
-            <h4>¿Se puede cambiar la marca prescripta?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
 
-        <li>
-            <h4>¿Qué recetarios son válidos para comprar?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe quasi optio neque
-                eveniet harum natus ex nulla.</p>
-        </li>
-    </ul>
+                            <p>La farmacia puede realizar la sustitución de medicamentos, según los requisitos que se
+                                indican en la ley
+                                de prescripción de medicamentos.
+                                Los casos en los que no se puedan realizar la sustitución, son aquellos en cuales, quien
+                                prescribe la
+                                receta, indica expresamente que se debe respetar la marca indicada. </p>
 
+                            <p> Recetas electrónicas: No se pueden cambiar. </p>
+
+                            <p> Recetas manuscritas: Se pueden cambiar, a cualquier que cumpla con lo prescripto,
+                                siempre y cuando se
+                                aclare el principio activo en la receta.</p>
+                        </li>
+
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                    aria-controls="flush-collapseFive">
+                    <p class="m-0 p-0 fs-3">Medifé</p>
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p> 30 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
+
+
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
+
+                            <p>La farmacia puede realizar la sustitución de medicamentos, según los requisitos que se
+                                indican en la ley
+                                de prescripción de medicamentos.
+                                Los casos en los que no se puedan realizar la sustitución, son aquellos en cuales, quien
+                                prescribe la
+                                receta, indica expresamente que se debe respetar la marca indicada. </p>
+
+                            <p> Recetas electrónicas: No se pueden cambiar. </p>
+
+                            <p> Recetas manuscritas: Se pueden cambiar, a cualquier que cumpla con lo prescripto,
+                                siempre y cuando se
+                                aclare el principio activo en la receta.</p>
+                        </li>
+
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                    aria-controls="flush-collapseSix">
+                    <p class="m-0 p-0 fs-3">Omint</p>
+                </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p>60 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
+
+
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
+
+                            <p>La farmacia puede realizar la sustitución de medicamentos, según los requisitos que se
+                                indican en la ley
+                                de prescripción de medicamentos.
+                                Los casos en los que no se puedan realizar la sustitución, son aquellos en cuales, quien
+                                prescribe la
+                                receta, indica expresamente que se debe respetar la marca indicada. </p>
+
+                            <p> Recetas electrónicas: No se pueden cambiar. </p>
+
+                            <p> Recetas manuscritas: Se pueden cambiar, a cualquier que cumpla con lo prescripto,
+                                siempre y cuando se
+                                aclare el principio activo en la receta.</p>
+                        </li>
+
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mb-3  border border-primary">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-primary bg-opacity-75 bg-gradient" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                    aria-controls="flush-collapseSeven">
+                    <p class="m-0 p-0 fs-3">Hospital Británico</p>
+                </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body bg-success-subtle">
+                    <ul>
+                        <li>
+                            <h4>Validez de la receta</h4>
+                            <p> 30 días, a partir de la fecha de emisión, incluyendo la misma como el primer día.</p>
+                        </li>
+
+
+                        <li>
+                            <h4>¿Se puede cambiar la marca prescripta?</h4>
+                            <p> Se puede dispensar otra marca comercial, que sea el mismo principio activo y la misma
+                                dosis, por
+                                aquellas marcas que sean de igual o menor valor al producto recetado. </p>
+                        </li>
+
+                        <li>
+                            <h4>¿Qué recetarios son válidos para comprar?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur impedit saepe
+                                quasi optio neque
+                                eveniet harum natus ex nulla.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
 
         <section class="serviciosSection">
             <h2 class="h2Section fs-3 fw-bold mt-1 mb-4">Servicios</h2>
             <ul class="ulSection p-0">
-                <li class="liSection mb-4 text-start"> <a class="aSection" href="html/mapadomicilio.html">Envios a domicilio</a></li>
+                <li class="liSection mb-4 text-start"> <a class="aSection" href="html/mapadomicilio.html">Envios a
+                        domicilio</a></li>
                 <li class="liSection mb-4 text-start"> <a class="aSection" href="">Gabinete</a> </li>
                 <li class="liSection mb-4 text-start"> <a class="aSection" href="">Reserva de medicamentos</a> </li>
             </ul>

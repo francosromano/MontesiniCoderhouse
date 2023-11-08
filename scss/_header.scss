@@ -1,0 +1,25 @@
+header {
+    background-color: $azul-secundario;
+    position: sticky;
+    top: 0;
+    border-radius: 40px;
+    z-index: 10;
+    margin-top: 0.5rem;
+}
+
+header li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 250px;
+}
+
+#logoPrincipal {
+    margin: 0px;
+}
+
+.navbar-ancho {
+    width: 300px;
+}

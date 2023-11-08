@@ -1,0 +1,199 @@
+/************************************************ HTMLS ****************************************************/
+
+/***********************************************  INICIO ***************************************************/
+
+.fondoReservaInicio {
+  background-image: url(../img/reserva.avif);
+  @include background;
+  height: 250px;
+  position: relative;
+  color: #fafafa;
+
+  &::before {
+    @include before;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.carrouselDtos {
+  height: 200px;
+}
+
+.card-img-top {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    width: 300px;
+    height: 300px;
+  }
+}
+.h2Oferta, .h2Dermo{
+  color: $azul-secundario;
+}
+
+/**********************************************  SERVICIOS  ***********************************************/
+h1{
+  color: $azul-farmacia;
+}
+
+
+
+.fondoServicios {
+  background-image: url(../img/fondoPrepaga.jpg);
+  @include background;
+  height: 100%;
+}
+
+.servicio {
+  @include background;
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+  margin: auto;
+  position: relative;
+}
+
+.gabinete:hover,
+.Reserva:hover,
+.envios:hover {
+  width: 350px;
+  height: 350px;
+}
+
+.gabinete {
+  background-image: url(../img/gabinete2.jpg);
+  transition: $transition;
+}
+
+.Reserva {
+  background-image: url(../img/reserva.avif);
+  transition: $transition;
+}
+
+.envios {
+  background-image: url(../img/mapaDomicilios.jpg);
+  transition: $transition;
+}
+
+.gabinete::before,
+.Reserva::before,
+.envios::before {
+  @include before;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#mapaDomicilio {
+  width: 150px;
+  border: 1px black dotted;
+  cursor: pointer;
+}
+
+.areaDomicilio {
+  width: 100vh;
+  border: $azul-secundario 1px solid;
+  border-radius: 5px;
+}
+
+
+/************************************************  PREPAGA  *************************************************/
+.padrePrepaga {
+  background-image: url(../img/fondoPrepaga.jpg);
+  @include background;
+  height: auto;
+}
+
+.hijoPrepaga {
+  @include hijo;
+  background-image: url(../img/fondoServicios.jpg);
+  @include background;
+  margin: 20px 50px;
+
+  &:hover {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.logoPrepaga {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+/************************************************  PAMI  *************************************************/
+.hijoPami {
+  @include background;
+  @include hijo;
+
+  &:hover {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.medicamentos {
+  background-image: url(../img/medicamentos.jpg);
+}
+
+.vacunas {
+  background-image: url(../img/vacunas.jpg);
+}
+
+.pañales {
+  background-image: url(../img/pañales.jpg);
+}
+
+.oncologico {
+  background-image: url(../img/oncologia.avif);
+}
+
+.medicamentos::before,
+.vacunas::before,
+.pañales::before,
+.oncologico::before {
+  @include before;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*********************************************** CONTACTO **************************************************/
+.fondoContacto {
+  background-image: url(../img/localFachada.jpg);
+  @include background;
+  height: auto;
+  position: relative;
+
+  &::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
+
+.divFormulario h1,
+div {
+  z-index: 1;
+}
+
+.h1Contacto {
+  color: white;
+  z-index: 1;
+  font-size: 50px;
+}
+
+form {
+  width: 400px;
+}
+
+.btnForm {
+  @include boton;
+  border-radius: 4px;
+  width: 200px;
+}

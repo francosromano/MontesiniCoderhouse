@@ -1,0 +1,119 @@
+/******************Media Queries******************/
+
+/******************First Mobile******************/
+@media (min-width: 350px) and (max-width: 768px) {
+    .espacioBusqueda, .mapaSection, .divNav, .contactoSection, .serviciosSection, .divSearch {
+      display: none;
+    }
+  
+    .areaDomicilio {
+      width: 100%;
+    }
+  
+    .fondoReserva {
+      height: auto;
+    }
+  
+    .h2Oferta, .h2Dermo {
+      text-align: center;
+    }
+  
+    .carrouselDtos {
+      height: auto;
+    }
+  
+    .reserva {
+      margin-bottom: 10px;
+    }
+  
+    .divFormulario {
+      flex-flow: column wrap;
+      text-align: start;
+      align-items: center;
+    }
+  
+    .divConsulta {
+      padding: 0px;
+      text-align: center;
+      margin: 0px 20px;
+      margin-bottom: 20px;
+    }
+  
+    header {
+      display: flex;
+      justify-content: center;
+    }
+  
+    form {
+      margin-bottom: 10px;
+      width: 300px;
+    }
+  
+    footer {
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+  }
+
+  /****************** Tablet ******************/
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .espacioBusqueda, .mapaSection, .divNav, .contactoSection {
+      display: none;
+    }
+  
+    .divFormulario {
+      text-align: start;
+      align-items: center;
+      margin: 0px 50px;
+    }
+  
+    .h3Consulta {
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    .divConsulta {
+      padding: 0px;
+      text-align: start;
+      margin: 0px 20px 75px 20px;
+    }
+  
+    .divForm {
+      margin: 0px 40px;
+    }
+  
+    form {
+      margin-bottom: 10px;
+      width: 300px;
+    }
+  
+    footer {
+      grid-template-columns: repeat(2, 1fr);
+      height: auto;
+      align-items: center;
+    }
+  }
+
+  /****************** Ordenador ****************/
+  @media (min-width: 1025px) {
+    .divFormulario {
+      align-items: center;
+      text-align: start;
+    }
+  
+    .h3Consulta {
+      text-align: center;
+    }
+  
+    .divConsulta {
+      text-align: start;
+      margin: 0px 150px 75px 20px;
+    }
+  
+    form {
+      margin: auto;
+      margin-bottom: 10px;
+      padding-right: 50px;
+      width: 500px;
+    }
+  }
