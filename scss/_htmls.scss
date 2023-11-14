@@ -126,6 +126,13 @@ h1{
   object-fit: contain;
 }
 
+.recetas{
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+
 /************************************************  PAMI  *************************************************/
 .hijoPami {
   @include background;
@@ -161,6 +168,11 @@ h1{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+h4{
+  color: $azul-secundario;
+  font-size: 20px;
+}
+
 /*********************************************** CONTACTO **************************************************/
 .fondoContacto {
   background-image: url(../img/localFachada.jpg);
@@ -177,6 +189,11 @@ h1{
   }
 }
 
+.divFormulario {
+  align-items: center;
+  text-align: start;
+}
+
 .divFormulario h1,
 div {
   z-index: 1;
@@ -188,7 +205,14 @@ div {
   font-size: 50px;
 }
 
+.h3Consulta {
+  text-align: center;
+} 
+
 form {
+  margin: auto;
+  margin-bottom: 10px;
+ 
   width: 400px;
 }
 

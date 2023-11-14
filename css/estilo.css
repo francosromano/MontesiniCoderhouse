@@ -257,6 +257,12 @@ h1 {
   object-fit: contain;
 }
 
+.recetas {
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
 /************************************************  PAMI  *************************************************/
 .hijoPami {
   background-position: center;
@@ -302,6 +308,11 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+h4 {
+  color: rgb(90, 145, 197);
+  font-size: 20px;
+}
+
 /*********************************************** CONTACTO **************************************************/
 .fondoContacto {
   background-image: url(../img/localFachada.jpg);
@@ -319,6 +330,11 @@ h1 {
   position: absolute;
 }
 
+.divFormulario {
+  align-items: center;
+  text-align: start;
+}
+
 .divFormulario h1,
 div {
   z-index: 1;
@@ -330,7 +346,13 @@ div {
   font-size: 50px;
 }
 
+.h3Consulta {
+  text-align: center;
+}
+
 form {
+  margin: auto;
+  margin-bottom: 10px;
   width: 400px;
 }
 
@@ -411,11 +433,8 @@ form {
   }
   .divConsulta {
     padding: 0px;
-    text-align: start;
+    text-align: center;
     margin: 0px 20px 75px 20px;
-  }
-  .divForm {
-    margin: 0px 40px;
   }
   form {
     margin-bottom: 10px;
@@ -428,24 +447,5 @@ form {
   }
 }
 /****************** Ordenador ****************/
-@media (min-width: 1025px) {
-  .divFormulario {
-    align-items: center;
-    text-align: start;
-  }
-  .h3Consulta {
-    text-align: center;
-  }
-  .divConsulta {
-    text-align: start;
-    margin: 0px 150px 75px 20px;
-  }
-  form {
-    margin: auto;
-    margin-bottom: 10px;
-    padding-right: 50px;
-    width: 500px;
-  }
-}
 
 /*# sourceMappingURL=estilo.css.map */

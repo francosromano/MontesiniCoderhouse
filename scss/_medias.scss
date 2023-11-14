@@ -42,7 +42,8 @@
       margin: 0px 20px;
       margin-bottom: 20px;
     }
-  
+
+
     header {
       display: flex;
       justify-content: center;
@@ -78,12 +79,8 @@
   
     .divConsulta {
       padding: 0px;
-      text-align: start;
+      text-align: center;
       margin: 0px 20px 75px 20px;
-    }
-  
-    .divForm {
-      margin: 0px 40px;
     }
   
     form {
@@ -100,24 +97,5 @@
 
   /****************** Ordenador ****************/
   @media (min-width: 1025px) {
-    .divFormulario {
-      align-items: center;
-      text-align: start;
-    }
-  
-    .h3Consulta {
-      text-align: center;
-    }
-  
-    .divConsulta {
-      text-align: start;
-      margin: 0px 150px 75px 20px;
-    }
-  
-    form {
-      margin: auto;
-      margin-bottom: 10px;
-      padding-right: 50px;
-      width: 500px;
-    }
+
   }
