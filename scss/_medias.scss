@@ -5,23 +5,27 @@
     .espacioBusqueda, .mapaSection, .divNav, .contactoSection, .serviciosSection, .divSearch {
       display: none;
     }
-  
+    
+    .imgCarrousel{
+      max-height: 135px;
+    }
+
     .areaDomicilio {
       width: 100%;
     }
-  
+    
     .fondoReserva {
       height: auto;
     }
-  
+    
     .h2Oferta, .h2Dermo {
       text-align: center;
     }
-  
-    .carrouselDtos {
-      height: auto;
+    
+    .carrouselDermo{
+      max-height: 165px;
     }
-  
+    
     .reserva {
       margin-bottom: 10px;
     }
@@ -65,7 +69,15 @@
     .espacioBusqueda, .mapaSection, .divNav, .contactoSection {
       display: none;
     }
-  
+    
+    .imgCarrousel{
+      max-height: 230px;
+    }
+
+    .carrouselDermo{
+      max-height: 180px;
+    }
+
     .divFormulario {
       text-align: start;
       align-items: center;
@@ -97,5 +109,9 @@
 
   /****************** Ordenador ****************/
   @media (min-width: 1025px) {
+    
+    .imgCarrousel{
+      max-height: 365px;
+    }
 
-  }
+ }
