@@ -15,11 +15,12 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-.imgCarrousel{
+
+.imgCarrousel {
   cursor: pointer;
 }
 
-.carrouselDermo{
+.carrouselDermo {
   height: 200px;
 }
 
@@ -35,12 +36,14 @@
     height: 300px;
   }
 }
-.h2Oferta, .h2Dermo{
+
+.h2Oferta,
+.h2Dermo {
   color: $azul-secundario;
 }
 
 /**********************************************  SERVICIOS  ***********************************************/
-h1{
+h1 {
   color: $azul-farmacia;
 }
 
@@ -120,16 +123,18 @@ h1{
     height: 300px;
   }
 }
-.tituloNormas{
+
+.tituloNormas {
   color: $azul-secundario;
 }
+
 .logoPrepaga {
   width: 100%;
   height: 100px;
   object-fit: contain;
 }
 
-.recetas{
+.recetas {
   object-fit: contain;
   width: auto;
   height: auto;
@@ -171,7 +176,7 @@ h1{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-h4{
+h4 {
   color: $azul-secundario;
   font-size: 20px;
 }
@@ -210,12 +215,12 @@ div {
 
 .h3Consulta {
   text-align: center;
-} 
+}
 
 form {
   margin: auto;
   margin-bottom: 10px;
- 
+
   width: 400px;
 }
 
@@ -224,3 +229,37 @@ form {
   border-radius: 4px;
   width: 200px;
 }
+
+
+/*************************** ERROR 404 *********************************/
+
+.pagina_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+.pagina_404 img {
+  width: 100%;
+}
+
+.gifError {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.gifError h1 {
+  font-size: 80px;
+}
+
+.boton_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+

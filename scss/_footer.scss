@@ -1,10 +1,8 @@
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: darkseagreen;
-    height: auto;
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
+    background: linear-gradient(rgb(130, 190, 130), rgb(60, 169, 60) );
+    border-top: 1px rgba(0, 0, 0, 0.312) solid;
     margin: 30px 0px 0px;
     padding-bottom: 10px;
 

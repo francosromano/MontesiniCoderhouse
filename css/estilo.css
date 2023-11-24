@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 header {
   background-color: rgb(90, 145, 197);
   position: sticky;
@@ -58,11 +57,9 @@ body {
   padding: 5px 10px;
   border-radius: 25px;
 }
-
 .btnGeneral:hover {
   background-color: rgba(40, 95, 197, 0.774);
 }
-
 .btnGeneral:active {
   background-color: rgba(22, 63, 139, 0.774);
 }
@@ -70,14 +67,11 @@ body {
 footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: darkseagreen;
-  height: auto;
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+  background: linear-gradient(rgb(130, 190, 130), rgb(60, 169, 60));
+  border-top: 1px rgba(0, 0, 0, 0.312) solid;
   margin: 30px 0px 0px;
   padding-bottom: 10px;
 }
-
 footer li {
   text-align: center;
   list-style: none;
@@ -93,11 +87,9 @@ section {
   color: black;
   text-decoration: none;
 }
-
 .aSection:hover {
   text-decoration: underline;
 }
-
 .aSection:active {
   color: white;
 }
@@ -126,7 +118,6 @@ a {
   position: relative;
   color: #fafafa;
 }
-
 .fondoReservaInicio::before {
   content: "";
   width: 100%;
@@ -152,7 +143,6 @@ a {
   cursor: pointer;
   transition: all 0.5s;
 }
-
 .card-img-top:hover {
   width: 300px;
   height: 300px;
@@ -255,7 +245,6 @@ h1 {
   background-repeat: no-repeat;
   margin: 20px 50px;
 }
-
 .hijoPrepaga:hover {
   width: 300px;
   height: 300px;
@@ -289,7 +278,6 @@ h1 {
   position: relative;
   transition: all 0.5s;
 }
-
 .hijoPami:hover {
   width: 300px;
   height: 300px;
@@ -337,7 +325,6 @@ h4 {
   height: auto;
   position: relative;
 }
-
 .fondoContacto::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.79);
@@ -385,124 +372,125 @@ form {
   width: 200px;
 }
 
+/*************************** ERROR 404 *********************************/
+.pagina_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+}
+
+.pagina_404 img {
+  width: 100%;
+}
+
+.gifError {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gifError h1 {
+  font-size: 80px;
+}
+
+.boton_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
 /******************Media Queries******************/
 /******************First Mobile******************/
 @media (min-width: 350px) and (max-width: 768px) {
-
-  .espacioBusqueda,
-  .mapaSection,
-  .divNav,
-  .contactoSection,
-  .serviciosSection,
-  .divSearch {
+  .espacioBusqueda, .mapaSection, .divNav, .contactoSection, .serviciosSection, .divSearch {
     display: none;
   }
-
   .imgCarrousel {
-    max-height: 135px;
+    max-height: 130px;
   }
-
   .areaDomicilio {
     width: 100%;
   }
-
   .fondoReserva {
     height: auto;
   }
-
-  .h2Oferta,
-  .h2Dermo {
+  .h2Oferta, .h2Dermo {
     text-align: center;
   }
-
   .carrouselDermo {
     max-height: 165px;
   }
-
   .reserva {
     margin-bottom: 10px;
   }
-
   .tituloNormas {
     text-align: center;
   }
-
   .divFormulario {
     flex-flow: column wrap;
     text-align: start;
     align-items: center;
   }
-
   .divConsulta {
     padding: 0px;
     text-align: center;
     margin: 0px 20px;
     margin-bottom: 20px;
   }
-
   header {
     display: flex;
     justify-content: center;
   }
-
   form {
     margin-bottom: 10px;
     width: 300px;
   }
-
   footer {
     grid-template-columns: 1fr;
     height: auto;
   }
+  .gifError {
+    background-size: 100%;
+  }
 }
-
 /****************** Tablet ******************/
 @media (min-width: 769px) and (max-width: 1024px) {
-
-  .espacioBusqueda,
-  .mapaSection,
-  .divNav,
-  .contactoSection {
+  .espacioBusqueda, .mapaSection, .divNav, .contactoSection {
     display: none;
   }
-
   .imgCarrousel {
     max-height: 230px;
   }
-
   .carrouselDermo {
     max-height: 180px;
   }
-
   .divFormulario {
     text-align: start;
     align-items: center;
     margin: 0px 50px;
   }
-
   .h3Consulta {
     text-align: center;
     font-size: 25px;
   }
-
   .divConsulta {
     padding: 0px;
     text-align: center;
     margin: 0px 20px 75px 20px;
   }
-
   form {
     margin-bottom: 10px;
     width: 300px;
   }
-
   footer {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
     align-items: center;
   }
 }
-
 /****************** Ordenador ****************/
 @media (min-width: 1025px) {
   .imgCarrousel {
